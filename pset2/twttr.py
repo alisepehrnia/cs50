@@ -1,5 +1,4 @@
-inp = input("Enter your text: ")
-output = inp
+output = input("Enter your text: ")
 VOWELS = ['a',"e","i","o","u"]
 
 for vowel in VOWELS:

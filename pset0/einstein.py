@@ -1,5 +1,5 @@
 def energy(mass):
-    return mass * (300000000) ** 2
+    return mass * 300000000 ** 2
 
 mass = float(input("Write the mass (in kilograms): "))
 

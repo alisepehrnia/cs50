@@ -9,7 +9,7 @@ while True:
     except:
         continue
 
-    if (coin != 25 and coin != 10 and coin != 5):
+    if coin != 25 and coin != 10 and coin != 5:
         print("Invalid coin!")
     else:
         coins_sum += coin
@@ -22,4 +22,3 @@ while True:
         print(f"Charge Owed: {-due_or_owe}")
         print("Tank you for buying!")
         break
-        

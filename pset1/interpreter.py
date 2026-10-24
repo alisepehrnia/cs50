@@ -21,8 +21,8 @@ print()
 
 while (True):
     try:
-        inp = input("Enter your expression: ")
-        if inp.lower() == "q" or inp.lower() == "quit":
+        inp = input("Enter your expression: ").lower()
+        if inp == "q" or inp == "quit":
             break
         x, y, z = inp.split(" ")
     except KeyboardInterrupt:

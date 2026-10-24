@@ -3,7 +3,6 @@ def convert(str):
 
 def main():
     inp = input("Enter your chat: ")
-    converted = convert(inp)
-    print(converted)
+    print(convert(inp))
 
 main()

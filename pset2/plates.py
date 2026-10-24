@@ -23,7 +23,7 @@ def is_valid(s):
     return c1 and c2 and c3 and c4 and c5
     
 def is_length_valid(s):
-    return len(s) >= 2 and len(s) <= 6
+    return 2 <= len(s) <= 6
 
 def is_started_with_two_letters(s):
     return len(s) >= 2 and s[0].isalpha() and s[1].isalpha()
